@@ -57,3 +57,11 @@ ul.gallery {
   height: 100%;
   object-fit: cover;
 }
+
+/*------  BOX STYLES  -----*/
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
