@@ -23,11 +23,9 @@ function hadleInputValidationCheck(event) {
   if (textLength !== validLength) {
     inputTextEl.classList.add("invalid");
     inputTextEl.classList.remove("valid");
-    console.log("invalid");
     return;
   }
 
-  console.log("valid");
   inputTextEl.classList.add("valid");
   inputTextEl.classList.remove("invalid");
 }
